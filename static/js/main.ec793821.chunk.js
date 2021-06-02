@@ -1,2 +1,0 @@
-(this["webpackJsonpsocial-network"]=this["webpackJsonpsocial-network"]||[]).push([[0],{19:function(e,t,n){"use strict";n.r(t);var c=n(1),r=n.n(c),s=n(6),i=n.n(s),o=n(7),a=n(8),j=n(2),d=Object(j.jsx)(o.a,{icon:a.a});var b=function(){return Object(j.jsx)(r.a.Fragment,{children:Object(j.jsx)("div",{children:d})})};i.a.render(Object(j.jsx)(r.a.StrictMode,{children:Object(j.jsx)(b,{})}),document.getElementById("root"))}},[[19,1,2]]]);
-//# sourceMappingURL=main.ec793821.chunk.js.map
