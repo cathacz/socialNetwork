@@ -1,5 +1,31 @@
 [
   {
+    "channel": "garten.odyssee",
+    "name": "Camilla Tilia",
+    "description": "Mein (Klein-)Garten Abenteuer",
+    "posts": "0",
+    "followers": "0",
+    "following": "0"
+  },
+  {
+    "id": 0,
+    "title": "Schlachtensee",
+    "location": "Berlin",
+    "text": "Enjoining my day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/DC13.jpg"
+  },
+  {
+    "id": 0,
+    "title": "Schlachtensee",
+    "location": "Berlin",
+    "text": "Enjoining my day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/DC13.jpg"
+  },
+  {
     "id": 0,
     "title": "Schlachtensee",
     "location": "Berlin",

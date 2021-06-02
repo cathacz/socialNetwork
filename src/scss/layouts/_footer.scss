@@ -1,0 +1,21 @@
+.footer {
+  @include flex-box;
+  flex-direction: column;
+}
+.footerline {
+}
+a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  justify-content: space-evenly;
+  padding: 0.2rem;
+  color: black;
+  opacity: 55%;
+  &:hover {
+  }
+}
+span {
+  font-size: 0.8rem;
+  opacity: 55%;
+  padding: 0.2rem;
+}
