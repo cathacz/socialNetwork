@@ -1,6 +1,7 @@
 .footer {
   @include flex-box;
   flex-direction: column;
+  margin: 1.5rem;
 }
 .footerline {
 }

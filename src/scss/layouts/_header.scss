@@ -1,0 +1,55 @@
+// menu
+menu {
+  background-color: rgb(255, 255, 255);
+  border-bottom: gainsboro solid 0.5px;
+  position: sticky;
+  top: 0;
+}
+.menu {
+  @include flex-box;
+
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 50vw;
+}
+.insta {
+  font-family: "Oleo Script";
+  font-size: 2rem;
+  font-weight: lighter;
+
+  img {
+    margin-top: 1rem;
+    width: 6.5rem;
+  }
+}
+.search {
+  input {
+    height: 1.8rem;
+    border-radius: 5px;
+    border: gainsboro solid 0.5px;
+    background-color: rgb(250, 248, 245);
+  }
+}
+.icons {
+  justify-content: flex-end;
+  font-family: "Source Sans";
+  font-weight: 100;
+  font-size: 1.4rem;
+
+  i {
+    padding: 0.4rem;
+  }
+}
+
+//header
+header {
+  @include flex-box;
+
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 50vw;
+  border-bottom: gainsboro solid 0.5px;
+  margin-bottom: 1rem;
+}

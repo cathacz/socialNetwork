@@ -9,3 +9,38 @@ h4 {
   font-size: 0.8rem;
   opacity: 55%;
 }
+.gallery {
+  // @include flex-box;
+  display: flex;
+  justify-content: center;
+  // justify-content: space-between;
+  // flex-direction: row;
+  // margin-left: auto;
+  // margin-right: auto;
+  // width: 50vw;
+  // margin-top: 1rem;
+  display: grid;
+  // justify-content: space-evenly;
+  // align-content: space-evenly;
+  grid-template-columns: 16vw 16vw 16vw;
+  grid-template-rows: 16vw 16vw 16vw;
+  grid-auto-flow: row;
+  gap: 1.6rem 1.6rem;
+}
+.posts {
+  img {
+    @include flex-box;
+    flex-direction: column;
+
+    width: 16vw;
+    &:hover {
+      opacity: 20%;
+      cursor: pointer;
+    }
+  }
+  .interaction,
+  h2,
+  h4 {
+    visibility: hidden;
+  }
+}

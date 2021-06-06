@@ -1,11 +1,12 @@
 [
   {
-    "channel": "garten.odyssee",
-    "name": "Camilla Tilia",
-    "description": "Mein (Klein-)Garten Abenteuer",
-    "posts": "0",
-    "followers": "0",
-    "following": "0"
+    "id": 0,
+    "title": "Schlachtensee",
+    "location": "Berlin",
+    "text": "Enjoining my day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "https://picsum.photos/800"
   },
   {
     "id": 0,
@@ -14,7 +15,7 @@
     "text": "Enjoining my day",
     "likes": 2345,
     "comments": 3444,
-    "img": "./img/DC13.jpg"
+    "img": "https://picsum.photos/900"
   },
   {
     "id": 0,
@@ -23,7 +24,7 @@
     "text": "Enjoining my day",
     "likes": 2345,
     "comments": 3444,
-    "img": "./img/DC13.jpg"
+    "img": "https://picsum.photos/700"
   },
   {
     "id": 0,
@@ -32,6 +33,24 @@
     "text": "Enjoining my day",
     "likes": 2345,
     "comments": 3444,
-    "img": "./img/DC13.jpg"
+    "img": "https://picsum.photos/1000"
+  },
+  {
+    "id": 0,
+    "title": "Schlachtensee",
+    "location": "Berlin",
+    "text": "Enjoining my day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "https://picsum.photos/500"
+  },
+  {
+    "id": 0,
+    "title": "Schlachtensee",
+    "location": "Berlin",
+    "text": "Enjoining my day",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "https://picsum.photos/600"
   }
 ]
