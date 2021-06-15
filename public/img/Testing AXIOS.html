@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://localhost:3004/cathacz.github.io/testingAxios -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3004/cathacz.github.io/testingAxios/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="for practicing purposes...">
+
+    <title>Testing AXIOS</title>
+  <style>@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);</style><style>@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);</style><script charset="utf-8" src="./Testing AXIOS_files/main.b37f75d0ce48e72ef201.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.c898dc4675d48dcb1098.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.cb94bac4e7bf20c932bf.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.2089f3e1c19cc54051bd.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.3759c6c0bc0bc918ff80.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.3a3283e1d4fee3f82d51.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.35161651908643b6747c.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.5d2ffe16acf8b1b251c6.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.2104327436e8cbc761cc.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.8f79dc646dbb96bdbfeb.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.a785ca33614b36fb53ee.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.969e29b843784fd0dc35.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.45311be43b501b6439f0.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.ed3ae1d66ee332837dff.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.c5dc452f1e88ed9ad3f6.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.a180971a032939cadb80.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.baa6ef5416639d13688c.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.d5a4aadf7ce6d3735234.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.8936487b57a55e8e5b52.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.940a41d98736fc12d9b9.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.11550f32fde2f123ef28.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.2600015f3773850da7a8.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.c30e009deb0988c03d4f.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.bd188620bc8ee8eab962.hot-update.js"></script><style>@font-face {
+  font-family: "Abril Fatface";
+  src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"); }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"); }
+
+input {
+  margin: 1rem;
+  border: 0.2px solid #d9cac5;
+  padding: 0.4rem;
+  border-radius: 5px; }
+  input:focus {
+    border: 0.2px solid #d9cac5; }
+
+button {
+  border: 0.2px solid #d9cac5;
+  padding: 0.4rem;
+  border-radius: 5px; }
+  button:hover {
+    cursor: pointer;
+    background-color: #d9cac5; }
+
+form {
+  border-radius: 10px;
+  width: 50vw;
+  background: #8c7e7b;
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #261e1c; }
+
+body {
+  color: #261e1c;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.main {
+  background-color: #d9cac5;
+  border-radius: 15px;
+  margin-top: 5rem; }
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #8c7e7b;
+  text-shadow: #d9cac5 0.2rem 0.2rem 0.2rem; }
+
+h2 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center; }
+
+h3 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 500;
+  font-size: 1.5rem; }
+
+div {
+  font-size: 1.3rem;
+  padding: 0.1rem; }
+
+.country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  border-radius: 10px;
+  margin: 2rem;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding: 1rem; }
+  .country .flag {
+    width: 40vw; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvc2Fzcy9fYWJzdHJhY3RzLnNjc3MiLCJ3ZWJwYWNrOi8vc3JjL3Nhc3MvX2NvbXBvbmVudHMuc2NzcyIsIndlYnBhY2s6Ly9zcmMvc2Fzcy9fbGF5b3V0cy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UsNEJBQTRCO0VBQzVCLCtFQUErRSxFQUFBOztBQUlqRjtFQUNFLHlCQUF5QjtFQUN6QixxRkFBcUYsRUFBQTs7QUNUdkY7RUFDRSxZQUFZO0VBQ1osMkJEb0JVO0VDbkJWLGVBQWU7RUFDZixrQkFBa0IsRUFBQTtFQUpwQjtJQU1JLDJCRGdCUSxFQUFBOztBQ1paO0VBQ0UsMkJEV1U7RUNWVixlQUFlO0VBQ2Ysa0JBQWtCLEVBQUE7RUFIcEI7SUFLSSxlQUFlO0lBQ2YseUJETVEsRUFBQTs7QUNEWjtFQUNFLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1gsbUJEQVU7RUNDVixZQUFZO0VBQ1osYUFBYTtFREdiLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CLEVBQUE7O0FFL0JyQjtFQUNFLHNCQUFzQjtFQUN0QixTQUFTO0VBQ1QsVUFBVTtFQUNWLHFDQUFxQztFQUNyQyxnQkFBZ0I7RUFDaEIsY0ZtQlUsRUFBQTs7QUVoQlo7RUFDRSxjRmVVO0VBSVYsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixtQkFBbUIsRUFBQTs7QUVsQnJCO0VBQ0UseUJGUVU7RUVQVixtQkFBbUI7RUFDbkIsZ0JBQWdCLEVBQUE7O0FBRWxCO0VBQ0UsbUNBQW1DO0VBQ25DLHNCQUFzQjtFQUN0QixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VGT2hCLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0VFUG5CLGVBQWU7RUFDZixjRkRVO0VFRVYseUNBQXFDLEVBQUE7O0FBRXZDO0VBQ0UsbUNBQW1DO0VBQ25DLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2Ysa0JBQWtCLEVBQUE7O0FBRXBCO0VBQ0UsbUNBQW1DO0VBQ25DLGdCQUFnQjtFQUNoQixpQkFBaUIsRUFBQTs7QUFFbkI7RUFDRSxpQkFBaUI7RUFDakIsZUFBZSxFQUFBOztBQUtqQjtFRmpCRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtFRWlCbkIsV0FBVztFQUNYLG1CQUFtQjtFQUNuQixZQUFZO0VBQ1osc0JBQXNCO0VBQ3RCLHlCRi9CVTtFRWdDVixhQUFhLEVBQUE7RUFQZjtJQVNJLFdBQVcsRUFBQSIsInNvdXJjZXNDb250ZW50IjpbIi8vID4+PiBmb250cyA8PDxcblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcIkFicmlsIEZhdGZhY2VcIjtcbiAgc3JjOiB1cmwoXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PUFicmlsK0ZhdGZhY2UmZGlzcGxheT1zd2FwXCIpO1xufVxuQGltcG9ydCB1cmwoXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PUFicmlsK0ZhdGZhY2UmZGlzcGxheT1zd2FwXCIpO1xuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwiTW9udHNlcnJhdFwiO1xuICBzcmM6IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9TW9udHNlcnJhdDp3Z2h0QDEwMCZkaXNwbGF5PXN3YXBcIik7XG59XG5AaW1wb3J0IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9TW9udHNlcnJhdDp3Z2h0QDEwMCZkaXNwbGF5PXN3YXBcIik7XG5cbi8vID4+PiB2YXJpYWJsZXMgPDw8XG4vLyAkbmFtZVlvdXJWYXJpYWJsZTogZ2l2ZUl0QVZhbHVlO1xuLy8gdXNlIHZhcmlhYmxlID0gJG5hbWVPZlZhcmlhYmxlXG5cbi8vIGNvbG9yc1xuLy8gaHR0cHM6Ly9jb2xvci5hZG9iZS5jb20vc2VhcmNoP3E9cGFzdGVsbGVcblxuLy8gQW50aHJheml0IENvbG9yLVNjaGVtZTpcbiRhMTogI2YyZjJmMjtcbiRhMjogI2Q5Y2FjNTtcbiRhMzogIzU5NGQ0YTtcbiRhNDogIzhjN2U3YjtcbiRhNTogIzI2MWUxYztcblxuLy8gPj4+IG1peGlucyA8PDxcbkBtaXhpbiBmbGV4LWJveCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLy8gQG1peGluIG5hbWUge1xuLy8gfVxuIiwiLy8gPj4+IGlucHV0cyA8PDxcbmlucHV0IHtcbiAgbWFyZ2luOiAxcmVtO1xuICBib3JkZXI6IDAuMnB4IHNvbGlkICRhMjtcbiAgcGFkZGluZzogMC40cmVtO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICY6Zm9jdXMge1xuICAgIGJvcmRlcjogMC4ycHggc29saWQgJGEyO1xuICB9XG59IC8vID4+PiBidXR0b25zIDw8PFxuXG5idXR0b24ge1xuICBib3JkZXI6IDAuMnB4IHNvbGlkICRhMjtcbiAgcGFkZGluZzogMC40cmVtO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkYTI7XG4gIH1cbn1cblxuLy8gPj4+IGZvcm1zIDw8PFxuZm9ybSB7XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gIHdpZHRoOiA1MHZ3O1xuICBiYWNrZ3JvdW5kOiAkYTQ7XG4gIG1hcmdpbjogMnJlbTtcbiAgcGFkZGluZzogMXJlbTtcbiAgQGluY2x1ZGUgZmxleC1ib3g7XG59XG5cbi8vID4+PiBsaXN0cyA8PDxcbiIsIi8vID4+PiBCYXNpY1NldHVwIDw8PFxuKiB7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgZm9udC1mYW1pbHk6IFwiTW9udHNlcnJhdFwiLCBzYW5zLXNlcmlmO1xuICBmb250LXdlaWdodDogNTAwO1xuICBjb2xvcjogJGE1O1xufVxuXG5ib2R5IHtcbiAgY29sb3I6ICRhNTtcbiAgQGluY2x1ZGUgZmxleC1ib3g7XG59XG4ubWFpbiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICRhMjtcbiAgYm9yZGVyLXJhZGl1czogMTVweDtcbiAgbWFyZ2luLXRvcDogNXJlbTtcbn1cbmgxIHtcbiAgZm9udC1mYW1pbHk6IFwiQWJyaWwgRmF0ZmFjZVwiLCBzZXJpZjtcbiAgbGV0dGVyLXNwYWNpbmc6IDAuMXJlbTtcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgbWFyZ2luLXRvcDogMnJlbTtcbiAgQGluY2x1ZGUgZmxleC1ib3g7XG4gIGZvbnQtc2l6ZTogNHJlbTtcbiAgY29sb3I6ICRhNDtcbiAgdGV4dC1zaGFkb3c6ICRhMiAwLjJyZW0gMC4ycmVtIDAuMnJlbTtcbn1cbmgyIHtcbiAgZm9udC1mYW1pbHk6IFwiQWJyaWwgRmF0ZmFjZVwiLCBzZXJpZjtcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgZm9udC1zaXplOiAycmVtO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5oMyB7XG4gIGZvbnQtZmFtaWx5OiBcIkFicmlsIEZhdGZhY2VcIiwgc2VyaWY7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIGZvbnQtc2l6ZTogMS41cmVtO1xufVxuZGl2IHtcbiAgZm9udC1zaXplOiAxLjNyZW07XG4gIHBhZGRpbmc6IDAuMXJlbTtcbn1cbi8vID4+PiBIZWFkZXIgPDw8XG5cbi8vID4+PiBNYWluUGFydCA8PDxcbi5jb3VudHJ5IHtcbiAgQGluY2x1ZGUgZmxleC1ib3g7XG4gIHdpZHRoOiA1MHZ3O1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICBtYXJnaW46IDJyZW07XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGJhY2tncm91bmQtY29sb3I6ICRhMTtcbiAgcGFkZGluZzogMXJlbTtcbiAgLmZsYWcge1xuICAgIHdpZHRoOiA0MHZ3O1xuICB9XG59XG4vLyA+Pj4gRm9vdGVyIDw8PFxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><script charset="utf-8" src="./Testing AXIOS_files/main.610c663e8c41fc3dc999.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.362ff108ce089454eed0.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.13c9bc09a86323d7e476.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.0029fd23414cee74419d.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.6022aea2a39f28d79d04.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.cf342cf6f5517c3bf736.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.239e9fdd4c101e6048e6.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.28677c337bb84217268b.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.cde163b2c80dba4bc24f.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.0228603ad3bef4198d83.hot-update.js"></script><script charset="utf-8" src="./Testing AXIOS_files/main.f85f871d72fe2c5284ef.hot-update.js"></script></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="main"><h1>Know your Countries</h1><form><input type="text" placeholder="country?" value="au"><button type="submit">Search</button></form><div class="country"><h2>Austria <br> (Österreich)</h2><h3>Vienna</h3><img class="flag" src="./Testing AXIOS_files/aut.svg" alt="country flag"><div><b>Region: </b> Europe</div><div><b>Area: </b> 83.871 km²</div><div><b>Population: </b> 8.725.931</div></div></div></div>
+  <script src="./Testing AXIOS_files/bundle.js"></script><script src="./Testing AXIOS_files/vendors_main.chunk.js"></script><script src="./Testing AXIOS_files/main.chunk.js"></script>
+
+</body></html>
